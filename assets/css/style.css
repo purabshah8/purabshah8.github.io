@@ -1,0 +1,21 @@
+.my-pic {
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.features {
+    overflow-wrap: scroll;
+}
+
+.skill-icon {
+    font-size: 128px;
+    color: white;
+    opacity: 0.7;
+    margin: 4px 8px;
+}
+
+.features > div {
+    height: 64px;
+}
