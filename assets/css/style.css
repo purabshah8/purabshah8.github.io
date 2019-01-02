@@ -6,7 +6,8 @@
 }
 
 .features {
-    overflow-wrap: scroll;
+    border: none;
+    background: none;
 }
 
 .skill-icon {
