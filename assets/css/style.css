@@ -8,7 +8,12 @@
 .features {
     border: none;
     background: none;
+    display: flex;
 }
+
+/* .skill-container {
+
+} */
 
 .skill-icon {
     font-size: 128px;
