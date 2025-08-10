@@ -11,19 +11,38 @@
     display: flex;
 }
 
-/* .skill-container {
+.skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
 
-} */
+.skill-category {
+    margin-bottom: 2rem;
+}
+
+.skill-category h3 {
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.skill-container {
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
 .skill-icon {
-    font-size: 128px;
+    font-size: 5rem;
     color: white;
     opacity: 0.7;
     margin: 4px 8px;
 }
 
 .features > div {
-    height: 64px;
+    height: 5rem;
 }
 
 .icons {
